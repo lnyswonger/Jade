@@ -1,5 +1,6 @@
 import re
 import requests
+from github import Github
 
 # Set the GitHub API endpoint and repository information
 github_api = 'https://api.github.com'
